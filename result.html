@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW" dir="ltr">
+
+<head>
+<!--meta information-->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Title-->
+<title>圖書機構實務一 | 國立臺灣大學圖資系圖書館</title>
+<!--CSS-->
+<link href="css/style_2.css" type="text/css" rel="stylesheet"/>
+<link href="css/style_result.css" type="text/css" rel="stylesheet"/>
+
+<!--JQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".toggle").click(function() {
+        $(this).toggleClass("active");
+        $(".nav").slideToggle();
+    });
+    $(".nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+});
+</script>
+</head>
+
+<body>
+
+<header>
+<div class="header">
+	<div id="top">
+		<div class="top_nav">
+			<div>
+			<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img class="icon" src="img/FB.png"/></a>
+			<a href="http://tw.youtube.com/ntulis" target="_blank"> <img class="icon" src="img/Youtube.png"/></a>
+			</div>
+			<span class="ENG">English Version</span>
+			<ul>
+				<li>臺大首頁</li> <span>‧</span> <li>myNTU</li> <span>‧</span> <li>臺大總圖</li> <span>‧</span> <li>未來學生</li> <span>‧</span> <li>本系學生</li> <span>‧</span> <li>系友</li>
+			</ul>
+		</div>
+	</div>
+<h1><a href="index.html">國立臺灣大學圖書資訊學系 實習圖書館</a></h1>
+<h6>
+	Library of Department and Graduate Institute of Library and Information Science, <br/>National Taiwan University </h6>
+
+<span class="toggle">主選單</span>
+</div>
+<nav class="nav">
+	<ul id="menu">
+    		<a id="intro"><li>首頁</li></a><a id="rule"><li>新聞與活動</li></a><a id="space"><li>關於圖資</li></a><a id="LIS_student"><li>招生資訊</li></a><a id="contact"><li>課程資訊</li></a><a id="1"><li>系所成員</li></a><a id="2"><li>學術研究</li></a><a id="3"><li>職涯發展</li></a>
+    </ul>
+</nav>
+</header>
+
+<div class="content">
+<section>
+	<h1 id="title">圖書機構實務一</h1>
+	<div class="text">
+		<h4>課程綱要</h4>
+		<p><a href="result/104-1課程綱要.doc">104-1 課程綱要</a></p>
+		<h4>歷年成果</h4>
+		<ul>
+			<h4>102學年度</h4>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第一組_偵探解謎.pdf" target="_blank">第一組 LIS00偵探解謎遊戲</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第二組_書籤隨行卡.pdf" target="_blank">第二組 書籤隨行卡</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第三組_DM、兒讀網站.pdf" target="_blank">第三組 系圖DM</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第四組_大富翁.pdf" target="_blank">第四組 野蠻系圖大富翁</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第五組_系圖FB.pdf" target="_blank">第五組  系圖Facebook</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第六組_漂書運動.pdf" target="_blank">第六組 漂書運動</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第七組_圖書資訊主題資源.pdf" target="_blank">第七組 圖書資訊主題資源</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/102/第八組_兔子花園標示.pdf" target="_blank">第八組 兔子花園標示</a></li>
+		</ul>
+		<ul>
+			<h4>103學年度</h4>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/103/第一組_come to find lis.pdf" target="_blank">第一組 come to find lis</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/103/第二組_系圖空間改造.pdf" target="_blank">第二組 系圖空間改造</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/103/第三組_QRCODE.pdf" target="_blank">第三組 QRCODE</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/103/第五組_兒讀小卡、懶人報.pdf" target="_blank">第五組 兒讀小卡、懶人報</a></li>
+			<li><a href="http://homepage.ntu.edu.tw/~b02106033/result/103/第六組_影列印教學.pdf" target="_blank">第六組 影列印教學</a></li>
+		</ul>
+	</div>
+</section>
+
+<aside>
+	<h3>實習圖書館</h3>
+	<ul>
+	<li><a href="index.html">簡介</a></li>
+	<li><a href="rule.html">借閱規則</a></li>
+	<li><a href="space.html">資源介紹</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="result.html">圖書機構實務一</a></li>
+	</ul>
+</aside>
+
+</div>
+
+<footer>
+<div id="footer">
+	<p id="f1">&copy;2015 Jimmy</p><p id="f2">10617臺北市羅斯福路4段1號 <a href="http://www.lis.ntu.edu.tw/" target="_blank">臺大圖書資訊學系</a>／電話02-33662954／傳真02-23632859／信箱lis@ntu.edu.tw</p>
+	<p id="fFB">
+		<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img id="FB" src="img/FB.png"/></a>
+		<span>NTULISLib 臺大圖資系實習圖書館</span>
+	</p>
+</div>
+</footer>
+
+</body>
+</html>

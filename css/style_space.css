@@ -1,0 +1,40 @@
+#area{	/*Aside.ul*/
+	margin:10px 0px;
+	}
+#area_list img{
+	
+	width:540px;
+	height:360px;
+}
+#area_list a p{		/*Why 不可用 a，'cause a is not a block*/
+	text-align:right;
+	}
+/*滑動式選單*/
+#area_list ul, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+.area_intro{
+	width:580px;
+	}
+
+#area_list ul.each_area li{
+	border: solid 1px #e3e3e3;
+
+	/*overflow 解決父元素*/ /*Why 不能在 .area_intro?*/
+	}
+#area_list ul.each_area li div.area_name{
+	color:#ffdb00;
+	background-color:#000;
+	cursor: pointer;
+	padding:12px;
+	box-sizing:border-box;
+	}
+#area_list ul.each_area li div.area_intro{
+	padding:24px 20px;
+	box-sizing:border-box;
+	color: #000;
+	
+	}
+

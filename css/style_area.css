@@ -1,0 +1,36 @@
+#area{	/*Aside.ul*/
+	margin:10px 0px;
+	}
+#cover{	/*Video*/
+	width:580px;
+	height:386px;
+	}
+.text{	/*內文*/
+	margin-top:0px; /*-24px 'cause style_2.css*/
+	width:360px;
+	float:left;
+	}
+.photo img{ /*一般照片*/
+	width:200px;
+	height:133px;
+	margin-left:10px;
+	margin-bottom:24px;
+	}
+.photo{
+	margin-top:36px;
+	}
+.instruction{
+	width:580px;
+	text-align:center;
+	margin-top:12px;
+	}
+.instruction img{
+	width:90%;
+	}
+.instruction p{
+	width:80%;
+	margin:0px auto;
+	}
+.pre_intro{
+	font-style:italic;
+	}

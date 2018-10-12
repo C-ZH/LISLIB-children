@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW" dir="ltr">
+
+<head>
+<!--meta information-->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Title-->
+<title>現期期刊區 | 國立臺灣大學圖資系圖書館</title>
+<!--CSS-->
+<link href="../css/style_2.css" type="text/css" rel="stylesheet"/>
+<link href="../css/style_area.css" type="text/css" rel="stylesheet"/>
+
+<!--JQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".toggle").click(function() {
+        $(this).toggleClass("active");
+        $(".nav").slideToggle();
+    });
+    $(".nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+});
+</script>
+</head>
+
+<body>
+
+<header>
+<div class="header">
+	<div id="top">
+		<div class="top_nav">
+			<div>
+			<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img class="icon" src="../img/FB.png"/></a>
+			<a href="http://tw.youtube.com/ntulis" target="_blank"> <img class="icon" src="../img/Youtube.png"/></a>
+			</div>
+			<span class="ENG">English Version</span>
+			<ul>
+				<li>臺大首頁</li> <span>‧</span> <li>myNTU</li> <span>‧</span> <li>臺大總圖</li> <span>‧</span> <li>未來學生</li> <span>‧</span> <li>本系學生</li> <span>‧</span> <li>系友</li>
+			</ul>
+		</div>
+	</div>
+<h1><a href="index.html">國立臺灣大學圖書資訊學系 實習圖書館</a></h1>
+<h6>
+	Library of Department and Graduate Institute of Library and Information Science, <br/>National Taiwan University </h6>
+<span class="toggle">主選單</span>
+</div>
+<nav class="nav">
+	<ul id="menu">
+    		<a id="intro"><li>首頁</li></a><a id="rule"><li>新聞與活動</li></a><a id="space"><li>關於圖資</li></a><a id="LIS_student"><li>招生資訊</li></a><a id="contact"><li>課程資訊</li></a><a id="1"><li>系所成員</li></a><a id="2"><li>學術研究</li></a><a id="3"><li>職涯發展</li></a>
+    </ul>
+</nav>
+</header>
+
+<div class="content">
+<section>
+	<h1 id="title">資源介紹──現期期刊區</h1>
+	<video id="cover" src="../video/10期刊區.mp4" controls></video>
+	<div class="text">
+		<p class="pre_intro">現期期刊區提供的期刊能讓我們取得與圖書資訊學相關的最新知識，了解學者出版研究成果，對於研究生撰寫論文有很大的益處。此外，不同國家之期刊也能讓我們掌握各國圖書資訊學的脈動。</p>
+		<h4>What’s現期期刊區?</h4>
+		<p>現期期刊區提供本系師生圖資領域的最新期中日文與西文期刊，包含圖書資訊學刊、中國圖書館學報、Knowledge Organization、Library Journal等。最新一期的期刊會展示在架上，一年內的期刊則收於展示櫃內。</p>
+		<h4>現期期刊區的使用方式</h4>
+		<p>現期期刊區之期刊限館內使用，不提供外借。本系所訂購之電子期刊，可於<a href="http://ejdb.lib.ntu.edu.tw/cgi-bin/er/browse.cgi" target="_blank">臺灣大學圖書館電子期刊網頁</a><b>(外連會出問題)</b>查詢使用。</p>
+	</div>
+	<div class="photo">
+		<img src="../img/area/期刊中文1.JPG"/>
+		<img src="../img/area/期刊日文1.JPG"/>
+		<img src="../img/area/期刊西文1.JPG"/>
+	</div>
+</section>
+
+<aside>
+	<h3>實習圖書館</h3>
+	<ul>
+	<li><a href="../index.html">簡介</a></li>
+	<li><a href="../rule.html">借閱規則</a></li>
+	<li><a href="../space.html">資源介紹</a></li>
+	<ul id="area">
+		<li><a href="textbook.html">教師指定參考書區</a></li>
+		<li><a href="children.html">兒童讀物區</a></li>
+		<li><a href="paper.html">博碩士論文區</a></li>
+		<li><a href="new_book.html">新書展示區</a></li>
+		<li><a href="book.html">圖書區</a></li>
+		<li><a href="reference.html">參考書區</a></li>
+		<li><a href="journal.html">現期期刊區</a></li>
+		<li><a href="journal_book.html">裝訂期刊區</a></li>
+		<li><a href="IR.html">資訊檢索區</a></li>
+	</ul>
+	<li><a href="../faq.html">FAQ</a></li>
+	<li><a href="../result.html">圖書機構實務一</a></li>
+	</ul>
+</aside>
+</div>
+
+<footer>
+<div id="footer">
+	<p id="f1">&copy;2015 Jimmy</p><p id="f2">10617臺北市羅斯福路4段1號 <a href="http://www.lis.ntu.edu.tw/" target="_blank">臺大圖書資訊學系</a>／電話02-33662954／傳真02-23632859／信箱lis@ntu.edu.tw</p>
+	<p id="fFB">
+		<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img id="FB" src="img/FB.png"/></a>
+		<span>NTULISLib 臺大圖資系實習圖書館</span>
+	</p>
+</div>
+</footer>
+
+</body>
+</html>

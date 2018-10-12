@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW" dir="ltr">
+
+<head>
+<!--meta information-->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Title-->
+<title>國立臺灣大學圖資系圖書館</title>
+<!--CSS-->
+<link href="css/style_2.css" type="text/css" rel="stylesheet"/>
+<link href="css/style_index.css" type="text/css" rel="stylesheet"/>
+
+
+<!--JQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".toggle").click(function() {
+        $(this).toggleClass("active");
+        $(".nav").slideToggle();
+    });
+    $(".nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+});
+</script>
+</head>
+
+<body>
+
+<header>
+<div class="header">
+	<div id="top">
+		<div class="top_nav">
+			<div>
+			<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img class="icon" src="img/FB.png"/></a>
+			<a href="http://tw.youtube.com/ntulis" target="_blank"> <img class="icon" src="img/Youtube.png"/></a>
+			</div>
+			<span class="ENG">English Version</span>
+			<ul>
+				<li>臺大首頁</li> <span>‧</span> <li>myNTU</li> <span>‧</span> <li>臺大總圖</li> <span>‧</span> <li>未來學生</li> <span>‧</span> <li>本系學生</li> <span>‧</span> <li>系友</li>
+			</ul>
+		</div>
+	</div>
+<h1><a href="index.html">國立臺灣大學圖書資訊學系 實習圖書館</a></h1>
+<h6>
+	Library of Department and Graduate Institute of Library and Information Science, <br/>National Taiwan University </h6>
+
+<span class="toggle">主選單</span>
+</div>
+<nav class="nav">
+	<ul id="menu">
+    		<a id="intro"><li>首頁</li></a><a id="rule"><li>新聞與活動</li></a><a id="space"><li>關於圖資</li></a><a id="LIS_student"><li>招生資訊</li></a><a id="contact"><li>課程資訊</li></a><a id="1"><li>系所成員</li></a><a id="2"><li>學術研究</li></a><a id="3"><li>職涯發展</li></a>
+    </ul>
+</nav>
+</header>
+
+<div class="content">
+<section>
+	<div id="picture" >
+		<img class="cover" src="img/lib/04.JPG" />
+	</div>	
+	<h1 id="title">簡介</h1>
+	<video id="cover" src="video/01開場.mp4" controls></video>
+	<div class="text">
+		<p>本系設有專業實習圖書館，支援系內師生教學研究所需及本系大學部同學實習，並提供校內外讀者專業服務。實習圖書館內設置助教1名，綜理實習圖書館內各項事務，並協助大三同學從事圖書館實習。圖書館2樓則為<a href="area/children.html">兒童讀物區</a>，配合兒童讀物課程，收藏中外文兒童讀物，並展示相關研究訪問成果。</p>
+		<p>本館館藏書刊資料，以配合本系師生教學研究之需要為主，舉凡圖書館學、資訊科學、社會科學、教育與青少年文學各領域之相關圖書、期刊與視聽資料等均有收藏。目前館藏包含：圖書逾29,000冊/件（含圖書與視聽資料），西文期刊280餘種，中日韓文及大陸期刊逾150種，總共約有期刊430餘種，為目前國內相關系所中，館藏量最豐富之專業圖書館。</p>
+		<p>本館設有電腦、列印機、影印機，提供校內外讀者查詢<a href="http://www.lib.ntu.edu.tw" target="_blank">圖書館線上目錄資料庫</a>，及影列印與掃描資料。</p>
+		<h4>開放時間</h4>
+		<p>學期中：週一至週五 09:00 ~ 19:00</p>
+		<p>寒暑假：週一至週五 09:00 ~ 17:00</p>
+		<p>週六日與國/校定假日不開放</p>
+		<h4>聯絡資訊</h4>
+		<p>電話：(02)3366-2955｜傳真：(02)2363-2859</p>
+		<p>電子信箱：<a href="mailto:lib@mail.lis.ntu.edu.tw">lib@mail.lis.ntu.edu.tw</a></p>
+		<p>系圖FB：<a href="https://zh-tw.facebook.com/LISlibrary" target="_blank">https://www.facebook.com/LISlibrary</a></p>
+		<p>館藏目錄：<a href="http://www.lib.ntu.edu.tw" target="_blank">http://www.lib.ntu.edu.tw</a></p>
+		<h4>館舍位置</h4>
+		<img src="img/map.png" />
+		<h4>進館須知</h4>
+		<p>1. 本校教職員、學生不限年齡皆可入館，校外人士須年滿18歲。</p>
+		<p>2. 背包請放置館外置物櫃，電腦包可以攜入館內。</p>
+		<p>3. 館內禁止飲食。</p>
+	</div>
+</section>
+
+<aside>
+	<h3>實習圖書館</h3>
+	<ul>
+	<li><a href="index.html">簡介</a></li>
+	<li><a href="rule.html">借閱規則</a></li>
+	<li><a href="space.html">資源介紹</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="result.html">圖書機構實務一</a></li>
+	</ul>
+</aside>
+
+</div>
+
+<footer>
+<div id="footer">
+	<p id="f1">&copy;2015 Jimmy</p><p id="f2">10617臺北市羅斯福路4段1號 <a href="http://www.lis.ntu.edu.tw/" target="_blank">臺大圖書資訊學系</a>／電話02-33662954／傳真02-23632859／信箱lis@ntu.edu.tw</p>
+	<p id="fFB">
+		<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img id="FB" src="img/FB.png"/></a>
+		<span>NTULISLib 臺大圖資系實習圖書館</span>
+	</p>
+</div>
+</footer>
+
+</body>
+</html>

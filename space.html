@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW" dir="ltr">
+
+<head>
+<!--meta information-->
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Title-->
+<title>國立臺灣大學圖資系圖書館</title>
+<!--CSS-->
+<link href="css/style_2.css" type="text/css" rel="stylesheet"/>
+<link href="css/style_space.css" type="text/css" rel="stylesheet"/>
+
+<!--nav JQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".toggle").click(function() {
+        $(this).toggleClass("active");
+        $(".nav").slideToggle();
+    });
+    $(".nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+});
+</script>
+<!--area JQuery-->
+<script type="text/javascript" language="JavaScript" src="script/area.js"></script>
+</head>
+
+<body>
+
+<header>
+<div class="header">
+	<div id="top">
+		<div class="top_nav">
+			<div>
+			<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img class="icon" src="img/FB.png"/></a>
+			<a href="http://tw.youtube.com/ntulis" target="_blank"> <img class="icon" src="img/Youtube.png"/></a>
+			</div>
+			<span class="ENG">English Version</span>
+			<ul>
+				<li>臺大首頁</li> <span>‧</span> <li>myNTU</li> <span>‧</span> <li>臺大總圖</li> <span>‧</span> <li>未來學生</li> <span>‧</span> <li>本系學生</li> <span>‧</span> <li>系友</li>
+			</ul>
+		</div>
+	</div>
+<h1><a href="index.html">國立臺灣大學圖書資訊學系 實習圖書館</a></h1>
+<h6>
+	Library of Department and Graduate Institute of Library and Information Science, <br/>National Taiwan University </h6>
+
+<span class="toggle">主選單</span>
+</div>
+<nav class="nav">
+	<ul id="menu">
+    		<a id="intro"><li>首頁</li></a><a id="rule"><li>新聞與活動</li></a><a id="space"><li>關於圖資</li></a><a id="LIS_student"><li>招生資訊</li></a><a id="contact"><li>課程資訊</li></a><a id="1"><li>系所成員</li></a><a id="2"><li>學術研究</li></a><a id="3"><li>職涯發展</li></a>
+    </ul>
+</nav>
+</header>
+
+<div class="content">
+<section>
+<h1 id="title">資源介紹</h1>
+
+<div>
+<img id="map" src="img/LISLIBMAP-201410_1.png" />
+</div>
+
+<div id="area_list">
+<ul class="each_area">
+	<li>
+		<div class="area_name">教師指定參考書區</div>
+		<div class="area_intro">
+			<img src="img/指參區1.JPG"/>
+			<p>你以為指定參考書的書都很難讀、很難懂嗎？
+			<br/>並非全然如此！</p>
+			<p>指定參考書的書籍除了可以使你更瞭解你所學的科目外，更可以讓你掌握時代的脈動，例如：大數據、書目療法、系統設計等等，讓你可以在這瞬息萬變的社會中，快速掌握資訊。所以指定參考書區不只是可以讓你瞭解理論、應用所學，更可以使你在這茫茫的資訊大海中，當一位厲害的船夫，優游在這資訊大海上！</p>
+			<a href="area/textbook.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">兒童讀物區</div>
+		<div class="area_intro">
+			<img src="img/兒讀9.JPG"/>
+			<p>凱風卡瑪兒童書店創辦人陳培瑜女士這樣說到：「在台灣，成人閱讀繪本風氣並不盛行，大多人都將繪本視為小孩書。」其實，大人也需要一個做夢的花園。當我們漸漸長大之際，在社會現實的考驗下，容易失去小時候純真又好奇的自我，也丟了那天馬行空的想像力。透過圖畫書中的單純勇敢找回迷失的你，如同游珮芸教授說的「繪本，是孩子們通往另一個國度的鑰匙，也是帶領長大後的我們，飛向寬廣世界的那一雙翅膀。」 </p>
+			<a href="area/children.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">博碩士論文區</div>
+		<div class="area_intro">
+			<img src="img/博碩士論文1.JPG"/>
+			<p>有聽說過專題研究嗎？是不是找不到研究主題啊？你知道這幾年的學長姐們研究了什麼題目嗎？那快來博碩士論文區吧！可以看見學術界最前端的研究成果，也可以從中尋找自己感興趣的研究領域喔。</p>
+			<a href="area/paper.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">新書展示區</div>
+		<div class="area_intro">
+			<img src="img/新書展示2.JPG"/>
+			<p>在茫茫館藏中，新書展示區是讓你快速了解最近圖資相關新書的最好方式！如果將現有館藏比喻成一道鎖，則新書展示就是與鎖相輔相依缺一不可的一把鑰匙。使用新書展示區，讓你站在最新圖書資訊的尖端。</p>
+			<a href="area/new_book.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">圖書區</div>
+		<div class="area_intro">
+			<img src="img/中文一般圖書6.JPG"/>
+			<p>來圖書館想必不只是為了做報告或考試，因此圖書區裡有各種主題種類的圖書可以滿足不同讀者的需求。走進圖書區，讀者可以與自己有興趣主題種類的圖書來場美妙的資訊偶遇。</p>
+			<a href="area/book.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">參考書區</div>
+		<div class="area_intro">
+			<img src="img/中文參考書2.JPG"/>
+			<p>參考書區收藏各種特定主題之參考書，此類書籍多收錄事實或評論性資料，編排方式也與一般書籍不同。研究、讀書時遇到不理解的名詞？對於網路上資料的正確性有所懷疑？那來參考書區逛逛吧，說不定會有意想不到的收穫。</p>
+			<a href="area/reference.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">現期期刊區</div>
+		<div class="area_intro">
+			<img src="img/中文期刊2.JPG"/>
+			<p>現期期刊區提供的期刊能讓我們取得與圖書資訊學相關的最新知識，了解學者出版研究成果，對於研究生撰寫論文有很大的益處。此外，不同國家之期刊也能讓我們掌握各國圖書資訊學的脈動。</p>
+			<a href="area/journal.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">裝訂期刊區</div>
+		<div class="area_intro">
+			<img src="img/裝訂中文期刊4.JPG"/>
+			<p>期刊出版頻率高，內容豐富多元，是吸收新知的管道之一。而作為一研究者或是學生來說，過去的期刊內容為必需品，是學術研究以及撰寫報告的重要文獻資源。站在巨人的肩膀上才能看得更遠，若能好好利用豐富的期刊資料，想必讀者可以從中獲取許多寶貴的資訊，在學術課業的路途中如魚得水。</p>
+			<a href="area/journal_book.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	<li>
+		<div class="area_name">資訊檢索區</div>
+		<div class="area_intro">
+			<img src="img/檢索區10.JPG"/>
+			<p>想找的書不知道在哪裡嗎？作業寫好了但是卻忘記列印出來了，可是計中好遠，該怎麼辦？報告用的講義數量不足，哪裡能夠在上課前讓我影印出來呢？這些問題，都可以在電子資源檢索區得到解決。</p>
+			<a href="area/IR.html"><p>閱讀全文介紹</p></a>
+		</div>
+	</li>
+	
+		
+</ul>
+</div>
+
+</section>
+
+<aside>
+	<h3>實習圖書館</h3>
+	<ul>
+	<li><a href="index.html">簡介</a></li>
+	<li><a href="rule.html">借閱規則</a></li>
+	<li><a href="space.html">資源介紹</a></li>
+	<ul id="area">
+		<li><a href="area/textbook.html">教師指定參考書區</a></li>
+		<li><a href="area/children.html">兒童讀物區</a></li>
+		<li><a href="area/paper.html">博碩士論文區</a></li>
+		<li><a href="area/new_book.html">新書展示區</a></li>
+		<li><a href="area/book.html">圖書區</a></li>
+		<li><a href="area/reference.html">參考書區</a></li>
+		<li><a href="area/journal.html">現期期刊區</a></li>
+		<li><a href="area/journal_book.html">裝訂期刊區</a></li>
+		<li><a href="area/IR.html">資訊檢索區</a></li>
+	</ul>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="result.html">圖書機構實務一</a></li>
+	</ul>
+
+</aside>
+</div>
+
+<footer>
+<div id="footer">
+	<p id="f1">&copy;2015 Jimmy</p><p id="f2">10617臺北市羅斯福路4段1號 <a href="http://www.lis.ntu.edu.tw/" target="_blank">臺大圖書資訊學系</a>／電話02-33662954／傳真02-23632859／信箱lis@ntu.edu.tw</p>
+	<p id="fFB">
+		<a href="https://www.facebook.com/LISlibrary" target="_blank"> <img id="FB" src="img/FB.png"/></a>
+		<span>NTULISLib 臺大圖資系實習圖書館</span>
+	</p>
+</div>
+</footer>
+
+</body>
+</html>

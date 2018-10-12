@@ -1,0 +1,29 @@
+/*滑動式選單*/
+#faq_list ul, li {
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+	}
+.ans{
+	width:580px;
+	}
+
+#faq_list ul.each_q li{
+	border: solid 1px #e3e3e3;
+
+	/*overflow 解決父元素*/ /*Why 不能在 .area_intro?*/
+	}
+#faq_list ul.each_q li div.question{
+	color:#ffdb00;
+	background-color:#000;
+	cursor: pointer;
+	padding:12px;
+	box-sizing:border-box;
+	}
+#faq_list ul.each_q li div.ans{
+	padding:24px 20px;
+	box-sizing:border-box;
+	color: #000;
+	
+	}
+

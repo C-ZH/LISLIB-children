@@ -1,0 +1,11 @@
+.activity{ /*推廣活動*/
+	width:200px;
+	}
+.ad_text{ /*推廣文宣*/
+	float:right;
+	width:360px;
+	padding-left:20px;
+	}
+#title{	/*因為cover*/
+	padding-top:20px;
+	}
